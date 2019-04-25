@@ -1,0 +1,14 @@
+section#counters{
+    background: url(../images/background/bg-counter.jpg) no-repeat fixed;
+    background-size: cover;
+}
+section#counters .counters-item .counters-description .counters-description-number{
+    font-size: 2.188rem;
+    color: #fff;
+    margin-bottom: 0.938rem;
+}
+section#counters .counters-item .counters-description .counters-description-subtitle{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #fff;
+}

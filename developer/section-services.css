@@ -1,0 +1,12 @@
+.section-item-box:hover .icon-type-one{
+    background: #61d2b4;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.section-item-box:hover .icon-type-one i{
+    color: #fff;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}

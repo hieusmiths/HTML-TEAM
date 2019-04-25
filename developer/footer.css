@@ -1,0 +1,40 @@
+.bg-292f35{
+    background: #292f35;
+}
+
+footer a.active ,footer a:hover{
+    color: #61d2b4;
+}
+.mg-r-15px{
+    margin-right: 0.9375rem;
+}
+.line-height-48{
+    line-height: 3rem;
+}
+
+.square-40x40{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.bg-ddd{
+    background: #ddd;
+}
+.font-size-16{
+    font-size: 1rem;
+}
+.line-height-40{
+    line-height: 2.5rem;
+}
+
+.font-size-36{
+    font-size: 2.25rem;
+}
+.mb-45{
+    margin-bottom: 2.8125rem;
+}
+.pl-10{
+    padding-left: 0.625rem;
+}
+.mt-40{
+    margin-top: 2.5rem;
+}

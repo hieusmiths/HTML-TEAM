@@ -1,0 +1,21 @@
+.section-header .lines {
+    margin: auto;
+    width: 70px;
+    position: relative;
+    border-top: 2px solid #61d2b4;
+    margin-top: 15px;
+}
+
+.section-header .section-title {
+    font-size: 42px;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+    position: relative;
+}
+.section-header .section-subtitle {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 400;
+}

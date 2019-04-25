@@ -1,0 +1,28 @@
+section#features{
+    background: url(../images/background/bg-section-features.jpg) fixed no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+    
+#features .box-item .text h4 {
+    color: #61d2b4;
+    font-weight: 700;
+    font-size: 1em;
+    text-transform: uppercase;
+    line-height: 22px;
+}
+.position-absolute{
+    position: absolute;
+}
+section#features .box-item:hover .icon-type-one{
+    background: #61d2b4;
+    border-color: #61d2b4;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+section#features .box-item:hover i{
+    color:#fff;
+}

@@ -1,0 +1,23 @@
+section#video-promo {
+    background-color: #61d2b4;
+}
+.show-video{
+    width: 5rem;
+    height: 5rem;
+    font-size: 1.875rem;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    border: 0.188rem solid #fff;
+    cursor: pointer;
+    pointer-events: all;
+}
+.show-video:focus{
+    outline: none;
+}
+#video-promo h2{
+    font-size: 1.875rem;
+}
+.modal-video-close-btn{
+    cursor: pointer;
+}
