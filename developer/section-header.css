@@ -32,6 +32,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
     transition: .6s;
+    border-radius: 30px;
 }
 #header-big  .html-team-nav a.active{
     background: #61d2b4!important;
@@ -45,6 +46,7 @@
 #header-big .contents .slogan{
     color: #fff;
     font-size: 42px;
+    letter-spacing: 1px;
     font-weight: 700;
     margin-bottom: 25px;
 }
@@ -62,6 +64,7 @@
     position: relative;
     color: #fff;
     z-index: 1;
+    font-size: 0.875rem;
     border-radius: 30px;
     margin: 25px 25px 0 0;
 }
@@ -73,4 +76,20 @@
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+#header-big .contents {
+    padding: 12.5rem 0 8.125rem;"
+}
+@media (max-width: 768px)
+{
+    #header-big .contents {
+        padding: 6.25rem 0 5rem;
+    }
+    #header-big{
+        height: auto;
+    }
+    #header-big .contents .slogan{
+        font-size: 1.125rem;
+        line-height: 1.875rem;
+    }
 }

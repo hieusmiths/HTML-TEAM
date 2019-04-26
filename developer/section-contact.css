@@ -23,9 +23,19 @@
     position: relative;
     color: #fff;
     z-index: 1;
+    text-transform: uppercase;
     border-radius: 1.875rem;
 }
 #msgSubmit{
     font-size: 0.875rem;
     margin-top: 0.625rem;
+}
+@media (max-width: 768px)
+{
+    #contact .contact-form  h3.contact-tittle {
+    font-size: 1.75rem!important;
+    }
+    #contact .contact-form   .btn-common{
+        font-size: 0.875rem!important;
+        } 
 }

@@ -161,3 +161,27 @@ h3{
 .pd-10px{
     padding: 0.625rem;
 }
+.modal-body{
+    padding: 0;
+}
+#myModal{
+    background: rgba(0,0,0,0);
+    padding: 0;
+}
+#myModal .modal-body img{
+    width: 100%;
+}
+.modal.show .modal-dialog {
+transform: translate(0, 25%);
+
+}
+.mt-10px{
+    margin-top: 0.625rem;
+}
+@media (max-width: 768px)
+{
+    .modal.show .modal-dialog {
+        transform: translate(0, 70%);
+        
+        }
+}

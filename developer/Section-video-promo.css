@@ -21,3 +21,10 @@ section#video-promo {
 .modal-video-close-btn{
     cursor: pointer;
 }
+
+@media (max-width: 768px)
+{
+    #video-promo h2{
+        font-size: 1.375rem;
+    }
+}
