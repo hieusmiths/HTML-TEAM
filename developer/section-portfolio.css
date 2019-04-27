@@ -83,7 +83,7 @@ span.lightbox i:hover{
     padding: 0.438rem;
     }
     #portfolios .pd-10px{
-        padding: 0.625rem 0rem!important;
+        padding: 0.625rem!important;
     }
     .modal.show .modal-dialog{
         left: 10%;

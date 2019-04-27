@@ -45,6 +45,27 @@ form#contactForm .contact-form-item .need-input:focus,form#contactForm .contact-
     font-size: 0.875rem;
     margin-top: 0.625rem;
 }
+
+#contact .social-icons li.dribbble a:hover{
+    background-color: #ea4c89;
+}
+#contact .social-icons li.linkedin a:hover{
+    background-color: #007bb6;
+}
+#contact .social-icons li.google-plus a:hover{
+    background-color: #dd4d42;
+}
+#contact .social-icons li.twitter a:hover{
+    background-color: #1da1f2;
+}
+#contact .social-icons li.facebook a:hover{
+    background-color: #4867aa;
+}
+
+
+#contact .social-icons li a:hover i{
+    color:#fff!important;
+}
 @media (max-width: 768px)
 {
     #contact .contact-form  h3.contact-tittle {

@@ -26,3 +26,8 @@ section#features .box-item:hover .icon-type-one{
 section#features .box-item:hover i{
     color:#fff;
 }
+@media (max-width: 767px){
+    #features .box-item .text h4{
+        font-size: 14px;
+    }
+}
