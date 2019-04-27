@@ -896,27 +896,24 @@
                         <div class="contact-form">
                             <form action="" id="contactForm">
                                 <div class="row">
-                                    <div class="col-md-12 contact-form-item position-relative"
-                                        data-error-message='Please enter your name'>
+                                    <div class="col-md-12">
                                         <input id="name" data-error="Please enter your email"
-                                            class="need-input border-fff mb-3 form-control rounded-0 bg-transparent focus  pd-14px"
+                                            class=" border-fff mb-3 form-control rounded-0 bg-transparent focus  pd-14px"
                                             type="text" placeholder="Your Name">
-                                        <div class="help-block with-errors"></div>
+                                            <div class="help-block with-errors"></div>
                                     </div>
-                                    <div class="col-md-12 contact-form-item position-relative"
-                                        data-error-message='Please enter your email'>
-                                        <input type="email" id="email" data-error="Please enter your email"
-                                            class="need-input border-fff mb-3 form-control  rounded-0 bg-transparent focus  pd-14px"
+                                    <div class="col-md-12">
+                                        <input  id="email" data-error="Please enter your email"
+                                            class=" border-fff mb-3 form-control  rounded-0 bg-transparent focus  pd-14px"
                                             type="text" placeholder="Your Email">
-                                        <div class="help-block with-errors"></div>
+                                            <div class="help-block with-errors"></div>
                                     </div>
-                                    <div class="col-md-12 contact-form-item position-relative"
-                                        data-error-message='Write your message'>
+                                    <div class="col-md-12">
                                         <textarea id="message" data-error="Please enter your email"
-                                            class="need-input border-fff mb-3 form-control rounded-0 bg-transparent focus  pd-14px"
+                                            class="border-fff mb-3 form-control rounded-0 bg-transparent focus  pd-14px"
                                             type="text" placeholder="Your Message"></textarea>
 
-                                        <div class="help-block with-errors"></div>
+                                            <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
                                 <div class="submit-button text-center">
@@ -1128,30 +1125,17 @@
     <!-- script chẹc contact  -->
 
     <script>
-        var input = $('form#contactForm .contact-form-item .need-input');
+ 
 
+        // $('#contactForm').on('click', function(){
+        //     $("#contactForm").removeClass().addClass('shake animated').one(
+        //         'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+        //         function () {
+        //             $(this).removeClass();
+        //         });
+        // })
+        // var nameContac = $('')
 
-
-        $('form#contactForm .contact-form-item .need-input').on('blur', function () {
-            if ($(this).val().trim() != "") {} else {
-                $(this).parent().addClass('msg-err-active');
-            }
-        })
-
-        $('form#contactForm').on('submit', function () {
-            var check = true;
-            for (var i = 0; i < input.length; i++) {
-                if (validate(input[i]) == false) {
-                    showValidate(input[i]);
-                    check = false;
-                    $('#msgSubmit').css({
-                        'display': 'block'
-                    })
-                    formError();
-                }
-            }
-            return check;
-        })
 
         function formError() {
             $("#contactForm").removeClass().addClass('shake animated').one(
@@ -1161,40 +1145,7 @@
                 });
         }
 
-        function validate(input) {
-            if ($(input).attr('type') == 'email' || $(input).attr('name') == 'email') {
-                if ($(input).val().trim().match(
-                        /^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{1,5}|[0-9]{1,3})(\]?)$/
-                        ) == null) {
-                    return false;
-                }
-            } else {
-                if ($(input).val().trim() == '') {
-                    return false;
-                }
-            }
-        }
-
-        function hideValidate(input) {
-            var thisAlert = $(input).parent();
-
-            $(thisAlert).removeClass('msg-err-active');
-        }
-
-        function showValidate(input) {
-            var thisAlert = $(input).parent();
-
-            $(thisAlert).addClass('msg-err-active');
-        }
-
-        $('form#contactForm .contact-form-item .need-input').each(function () {
-            $(this).focus(function () {
-                hideValidate(this);
-                $('#msgSubmit').css({
-                    'display': 'none'
-                })
-            });
-        });
+        
     </script>
 
     <!-- Script click show Img của phần portfolios -->
