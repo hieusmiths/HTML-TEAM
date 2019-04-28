@@ -1,35 +1,35 @@
-/*	
-	Project : template
-	Author : Nguyen Quang Duc
-	Date : 23/04/2019
-	version : Sublime Text3
+/*  
+    Project : template
+    Author : Nguyen Quang Duc
+    Date : 23/04/2019
+    version : Sublime Text3
  */
 *{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
     font-family: poppins,sans-serif;
 }
 
 /* section 2*/
 .section_header{
-	margin-bottom: 40px;
+    margin-bottom: 40px;
 }
    
 .section_header .section_title{
-	color: #333;
-	font-size: 2.625rem;
-	text-transform: uppercase;
-	font-weight: 700;
-	font-family: sans-serif;
+    color: #333;
+    font-size: 2.625rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: sans-serif;
 
 }
 .section_header .section_title:after{
-	content: '';
-	width: 80px;
-	height: 1px;
-	background: #61d2b4;
-	display: block;
-	margin: 0.5375em auto;
+    content: '';
+    width: 80px;
+    height: 1px;
+    background: #61d2b4;
+    display: block;
+    margin: 0.5375em auto;
 }
 
 .section_header .section_subtitle{
@@ -51,7 +51,7 @@
 }
 
 .pricing_table:hover{
-	box-shadow: 0 0 20px 0 rgba(0,0,0,.1);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.1);
 
 }
 
@@ -74,7 +74,7 @@
 }
 
 .pricing_table .deltais_pricing ul{
-	margin-bottom: 35px;
+    margin-bottom: 35px;
 }
 
 .pricing_table .deltais_pricing ul li{
@@ -85,13 +85,13 @@
 }
 
 .pricing_table .btn_pricing{
-	display: inline;
- 	border-radius: 20px;
- 	border: 1px solid #61d2b4;
- 	padding: 11px 40px;
- 	background: #61d2b4;
- 	cursor: pointer;
- 	transition: .5s;
+    display: inline;
+    border-radius: 20px;
+    border: 1px solid #61d2b4;
+    padding: 11px 40px;
+    background: #61d2b4;
+    cursor: pointer;
+    transition: .5s;
 
 }
 
@@ -111,9 +111,15 @@
 
 
 /*Khoi 3 */
+
+.our_team {
+    margin-bottom: 30px;
+}
+
 .our_team img{
-	width: 100%;
-	background-size: cover;
+    width: 100%;
+    background-size: cover;
+    padding: 0;
 }
 
 .our_team_details {
@@ -131,17 +137,17 @@
 }
 
 .our_team_details p{
-	color: #333;
+    color: #333;
 }
 
 .our_team_details ul{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .our_team_details ul.list_items li{
-	display: inline-block;
-	position: relative;
+    display: inline-block;
+    position: relative;
     bottom: 0;
     left: 0;
     z-index: 1;
@@ -153,19 +159,19 @@
 }
 
 .our_team_details .list_items li.facebook:hover{
-	background: #4867aa;
+    background: #4867aa;
 }
 
 .our_team_details .list_items li.twitter:hover{
-	background: #1da1f2;
+    background: #1da1f2;
 }
 
 .our_team_details .list_items li.google:hover{
-	background: #dd4d42;
+    background: #dd4d42;
 }
 
 .our_team_details .list_items li.linkedin:hover{
-	background: #007bb6;
+    background: #007bb6;
 }
 
 .our_team_details .list_items li a{
@@ -179,14 +185,11 @@
 }
 
 .our_team_details .list_items li:hover a{
-	color: #fff;
+    color: #fff;
 }
 
-@media (max-width: 768px){
-    .section_header .section_title {
-    font-size: 1.25rem;
-}  
-#our_team .container .row [class*='col']{
-    margin-bottom: 15px;
-}
+@media (max-width : 768px){
+    .section_header .section_title{
+        font-size: 1.25rem;
+    }
 }
